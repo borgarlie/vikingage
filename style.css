@@ -1,0 +1,114 @@
+@charset "UTF-8";  
+/* Background-Styles */  
+
+body {  
+    margin:0px; padding:0px;
+    font-style:oblique;
+    font-size:19px;
+    color: black;
+    /*background: url('pictures/longsword2.png') no-repeat center center;*/
+    /*background-size: 85%;*/
+}
+
+.container {
+    min-width:1250px; /*950*/
+    position: relative;
+    background:#ffffff url('pictures/swordbackground1.jpg') no-repeat center center;
+    background-size: 102%;
+    min-height:800px;
+    max-width: 1420px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 100%;
+    /*opacity: 0.82;*/
+}
+
+#header {  
+    position: relative;
+    /*padding-top:45px;*/
+    height: 145px;
+    background: url('pictures/vikingtitle1.png') no-repeat center center;
+    background-size: 80%;
+}
+
+#footer {
+    padding:40px;
+    /*height: 70px;*/
+}
+
+#left {
+    position: absolute;
+    top: 120px;
+    /*margin-top: 5px;*/
+    text-align: center;
+    left:100px;
+    min-width: 200px;
+    min-height: 710px;
+}
+
+#right {
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    right: 100px;
+    min-width: 200px;
+    min-height: 710px;
+    color: #990000;
+}
+
+#middle {
+    position: relative;
+    /*top: 90px;*/
+    /*margin-top: 5px;*/
+    text-align: center;
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    margin-left: 315px;
+    margin-right:315px;
+    min-width: 400px;
+    min-height: 710px;
+    font-weight:normal;
+    font-size:21px;
+}
+
+#right b {
+    color: black;
+}
+
+h1 {
+    /*margin:0px 0px 0px 0px;  */
+    font-size:30px;  
+    font-family:Helvetica, Arial, Sans-serif;  
+    font-style:normal;
+}
+
+h2 {
+    margin:0px 0px 0px 0px;  
+    font-size:20px;  
+    font-family:Helvetica, Arial, Sans-serif;  
+    /*color:white;*/
+    font-style:oblique;
+    color: black;
+}
+
+h4 {
+    font-size:40px;  
+    font-family:Helvetica, Arial, Sans-serif;
+    font-style:bold;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+a:link {
+    color:#990000;
+}
+
+a:visited {
+    color:#990000;
+}
